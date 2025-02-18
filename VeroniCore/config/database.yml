@@ -1,0 +1,36 @@
+# database.yml
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: VeroniCore_development
+  username: dev_user
+  password: dev_password
+  host: localhost
+  port: 5432
+
+test:
+  <<: *default
+  database: VeroniCore_test
+  username: test_user
+  password: test_password
+  host: localhost
+  port: 5432
+
+production:
+  <<: *default
+  database: VeroniCore_production
+  username: prod_user
+  password: prod_password
+  host: localhost
+  port: 5432
+  pool: 10
+
+# Enhancement: Add connection pooling options for better performance and reliability
+pooling:
+  min_connections: 1
+  max_connections: 20

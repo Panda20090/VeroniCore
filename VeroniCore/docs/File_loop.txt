@@ -1,0 +1,174 @@
+Directory: VeroniCore
+	Sub-directory: assets
+	Sub-directory: config
+	Sub-directory: data
+	Sub-directory: docs
+	Sub-directory: integrations
+	Sub-directory: scripts
+	Sub-directory: src
+	Sub-directory: tests
+
+Directory: VeroniCore\assets
+	Sub-directory: icons
+	Sub-directory: images
+	Sub-directory: styles
+
+Directory: VeroniCore\assets\icons
+
+Directory: VeroniCore\assets\images
+
+Directory: VeroniCore\assets\styles
+
+Directory: VeroniCore\config
+	File: database.yml
+	File: logging.conf
+	File: settings.ini
+
+Directory: VeroniCore\data
+	Sub-directory: backups
+	Sub-directory: models
+	Sub-directory: processed
+	Sub-directory: raw
+
+Directory: VeroniCore\data\backups
+
+Directory: VeroniCore\data\models
+
+Directory: VeroniCore\data\processed
+
+Directory: VeroniCore\data\raw
+
+Directory: VeroniCore\docs
+	File: api_reference.md
+	File: developer_guide.md
+	File: File_loop.txt
+	File: integration_guide.md
+	File: user_guide.md
+
+Directory: VeroniCore\integrations
+	Sub-directory: azure
+	Sub-directory: microsoft_office
+	Sub-directory: third_party
+
+Directory: VeroniCore\integrations\azure
+	File: ai_integration.py
+	File: compute_integration.py
+	File: storage_integration.py
+
+Directory: VeroniCore\integrations\microsoft_office
+	File: excel_integration.py
+	File: outlook_integration.py
+	File: teams_integration.py
+
+Directory: VeroniCore\integrations\third_party
+	File: google_workspace_integration.py
+	File: salesforce_integration.py
+	File: slack_integration.py
+
+Directory: VeroniCore\scripts
+	File: automate_ci_cd.sh
+	File: backup.sh
+	File: deploy.sh
+
+Directory: VeroniCore\src
+	Sub-directory: ai
+	Sub-directory: api
+	Sub-directory: blockchain
+	Sub-directory: data
+	Sub-directory: data_management
+	Sub-directory: github_integration
+	Sub-directory: mining
+	Sub-directory: ml
+	Sub-directory: security
+	Sub-directory: unity_integration
+
+Directory: VeroniCore\src\ai
+	Sub-directory: insights
+	Sub-directory: personalization
+
+Directory: VeroniCore\src\ai\insights
+	File: predictive_analytics.py
+	File: system_optimization.py
+	File: user_behavior_analysis.py
+
+Directory: VeroniCore\src\ai\personalization
+	File: ai_engine.py
+	File: learning_module.py
+	File: recommendation_system.py
+
+Directory: VeroniCore\src\api
+	Sub-directory: endpoints
+	Sub-directory: middlewares
+
+Directory: VeroniCore\src\api\endpoints
+	File: auth_api.py
+	File: data_api.py
+	File: user_api.py
+
+Directory: VeroniCore\src\api\middlewares
+	File: alert_manager.py
+	File: authentication.py
+	File: error_handler.py
+	File: logging.py
+
+Directory: VeroniCore\src\blockchain
+	File: blockchain_analytics.py
+	File: blockchain_manager.py
+	File: smart_contract_manager.py
+
+Directory: VeroniCore\src\data
+	Sub-directory: integration
+
+Directory: VeroniCore\src\data\integration
+	File: data_aggregation.py
+	File: global_data_connector.py
+	File: real_time_data_processor.py
+
+Directory: VeroniCore\src\data_management
+	File: data_sync.py
+	File: metadata_handler.py
+	File: repository_manager.py
+
+Directory: VeroniCore\src\github_integration
+	File: actions_handler.py
+	File: ci_cd_pipeline.py
+	File: repo_manager.py
+
+Directory: VeroniCore\src\mining
+	File: mining_engine.py
+	File: mining_monitor.py
+	File: mining_optimizer.py
+
+Directory: VeroniCore\src\ml
+	File: model_deployment.py
+	File: model_evaluator.py
+	File: model_trainer.py
+
+Directory: VeroniCore\src\security
+	File: audit_trail_manager.py
+	File: compliance_checker.py
+	File: encryption_manager.py
+
+Directory: VeroniCore\src\unity_integration
+	File: simulation_engine.py
+	File: ui_components.py
+	File: visualization_manager.py
+
+Directory: VeroniCore\tests
+	Sub-directory: integration_tests
+	Sub-directory: performance_tests
+	Sub-directory: unit_tests
+
+Directory: VeroniCore\tests\integration_tests
+	File: test_github_integration.py
+	File: test_unity_integration.py
+
+Directory: VeroniCore\tests\performance_tests
+	File: test_load_handling.py
+	File: test_scalability.py
+
+Directory: VeroniCore\tests\unit_tests
+	File: test_ai.py
+	File: test_core.py
+	File: test_data_management.py
+
