@@ -14,7 +14,7 @@ def save_directory_structure(root_dir, output_file):
 
 if __name__ == "__main__":
     # Root directory to start the loop
-    root_directory = "Automation_frame"
+    root_directory = "VeroniCore/VeroniCore"
 
     # Output file path
     output_path = os.path.join(root_directory, "Docs", "File_loop.txt")
